@@ -1,0 +1,78 @@
+
+.container{
+    display: flex;
+    background-color:#1f4482;
+   flex-wrap: wrap;
+    padding: 100px;
+    justify-content: space-around;
+}
+.element1{
+    display: flex;
+    flex-direction: column;
+
+}
+.text{
+   
+}
+span{
+  color:yellow;   
+}
+.emailbox{
+    display: flex;
+    padding-top: 50px;
+}
+#email{
+    padding: 10px;
+    border-radius: 7px;
+    width: 250px;
+    font-family: 'Roboto', sans-serif;
+}
+#submit{
+    padding: 10px;
+    border-radius: 7px;
+    background-color:#282828;
+    color: aliceblue;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+.free{
+    font-size: smaller;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 30px;
+}
+.text1{
+    color: hwb(208 94% 0%);
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+.element2{
+    box-shadow: 10px 10px 150px 20px white;
+     box-sizing: border-box; 
+    border-radius: 25px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+}
+img{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+.container2{
+    display: flex;
+    background-color:#282828;
+    color:hwb(208 94% 0%) ;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+}
